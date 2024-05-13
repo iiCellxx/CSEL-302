@@ -1,0 +1,45 @@
+
+--------------------------
+   SALES ANALYSIS REPORT
+--------------------------
+
+1. Summary Statistics:
+        Retailer ID  Price per Unit   Units Sold    Total Sales  \
+count  9.648000e+03     9648.000000  9648.000000    9648.000000   
+mean   1.173850e+06       45.216625   256.930037   93273.437500   
+std    2.636038e+04       14.705397   214.252030  141916.016727   
+min    1.128299e+06        7.000000     0.000000       0.000000   
+25%    1.185732e+06       35.000000   106.000000    4254.500000   
+50%    1.185732e+06       45.000000   176.000000    9576.000000   
+75%    1.185732e+06       55.000000   350.000000  150000.000000   
+max    1.197831e+06      110.000000  1275.000000  825000.000000   
+
+       Operating Profit  Operating Margin  
+count       9648.000000       9648.000000  
+mean       34425.244761          0.422991  
+std        54193.113713          0.097197  
+min            0.000000          0.100000  
+25%         1921.752500          0.350000  
+50%         4371.420000          0.410000  
+75%        52062.500000          0.490000  
+max       390000.000000          0.800000  
+
+2. Total Sales by Region:
+      Region  Total Sales
+0    Midwest    135800459
+1  Northeast    186324067
+2      South    144663181
+3  Southeast    163171236
+4       West    269943182
+
+3. Total Sales by Product Category:
+    Product Category  Total Sales
+0            Apparel    302767492
+1  Athletic Footwear    260305576
+2    Street Footwear    336829057
+
+4. Total Sales by Sales Method:
+  Sales Method  Total Sales
+0     In-store    356643750
+1       Online    247672882
+2       Outlet    295585493
